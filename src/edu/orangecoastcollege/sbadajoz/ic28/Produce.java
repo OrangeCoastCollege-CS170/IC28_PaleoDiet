@@ -12,12 +12,12 @@ public class Produce extends PaleoFood implements Serializable {
 		 mOrganic = organic;
 	 }
 
-	public boolean ismOrganic() {
+	public boolean isOrganic() {
 		return mOrganic;
 	}
 
-	public void setmOrganic(boolean mOrganic) {
-		this.mOrganic = mOrganic;
+	public void setOrganic(boolean organic) {
+		this.mOrganic = organic;
 	}
 
 	@Override
