@@ -6,9 +6,11 @@ public class Meat extends PaleoFood implements Serializable{
 	private int mType;
 	private int mCookingTemp;
 	
-	public Meat(String name, int calories, int type, int cookingTemp) {
+	public Meat(String name, int calories, int type, int cookingTemp) throws UnkownMeatException {
 		mName = name;
 		mNumCalories = calories;
+		if(type > 1 || type < 0)
+			throw new UnkownMeatException("Please enter meat type 1 or 2");
 		mType = type;
 		mCookingTemp = cookingTemp;
 		mNumCarbohydrates = 0;
