@@ -1,6 +1,8 @@
 package edu.orangecoastcollege.sbadajoz.ic28;
 
-public abstract class PaleoFood {
+import java.io.Serializable;
+
+public abstract class PaleoFood implements Serializable {
 	protected String mName;
 	protected int mNumCalories;
 	protected int mNumCarbohydrates;
