@@ -1,7 +1,13 @@
 package edu.orangecoastcollege.sbadajoz.ic28;
 
 import java.io.Serializable;
+/*
+Badajoz, Seve
+CS A170
+December 14, 2016
 
+IC28
+*/
 public abstract class PaleoFood implements Serializable {
 	protected String mName;
 	protected int mNumCalories;

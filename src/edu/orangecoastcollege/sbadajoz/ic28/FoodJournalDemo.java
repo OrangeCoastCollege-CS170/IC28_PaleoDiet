@@ -9,6 +9,14 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.util.ArrayList;
 import java.util.Scanner;
+/*
+Badajoz, Seve
+CS A170
+December 14, 2016
+
+IC28
+*/
+
 
 public class FoodJournalDemo {
 	public static void print(ArrayList<PaleoFood> food) {

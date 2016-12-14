@@ -1,7 +1,13 @@
 package edu.orangecoastcollege.sbadajoz.ic28;
 
 import java.io.Serializable;
+/*
+Badajoz, Seve
+CS A170
+December 14, 2016
 
+IC28
+*/
 public class Produce extends PaleoFood implements Serializable {
 	private boolean mOrganic;
 	
