@@ -75,4 +75,4 @@ Create a method named `public static int organicProduceConsumed` that takes, as 
 
 Below is a UML diagram showing the class inheritance:
 
-Paleo class diagram
+![Paleo class diagram](https://github.com/S33V/IC28_PaleoDiet/blob/master/images/PaleoClassDiagram.png)
