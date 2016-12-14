@@ -50,7 +50,7 @@ public class Produce extends PaleoFood implements Serializable {
 
 	@Override
 	public String toString() {
-		return ((mOrganic)? "Organic":"") + "Produce: " + mName + "," + mNumCalories + "calories, "
+		return ((mOrganic)? "Organic":"") + "Produce: " + mName + "," + mNumCalories + " calories, "
 				+ mNumCarbohydrates + "g carbs";
 	}
 	 
